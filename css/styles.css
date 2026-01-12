@@ -517,6 +517,14 @@ strong { font-weight: 600; color: var(--color-white); }
     z-index: 0;
 }
 
+.hero-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
 .hero-gradient {
     position: absolute;
     inset: 0;
@@ -1237,6 +1245,8 @@ strong { font-weight: 600; color: var(--color-white); }
 .visual-image {
     aspect-ratio: 16/10;
     background: var(--color-black-light);
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
 
