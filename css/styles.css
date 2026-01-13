@@ -754,39 +754,8 @@ p {
    LIFESTYLE SECTION
    ============================================ */
 .section-lifestyle {
-    background: var(--color-navy-dark);
+    background: var(--gradient-navy);
     color: var(--color-white);
-    position: relative;
-    overflow: hidden;
-}
-
-.section-lifestyle::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: url('https://res.cloudinary.com/dgcdcqjrz/image/upload/v1768256637/a-cinematic-aerial-drone-photograph-of-a_VBcOdiOBSXyHrSh-zBxWPQ_u2CaayZ2TBe7WR-owBFy6A_d2n9vr.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.15;
-    z-index: 0;
-}
-
-.section-lifestyle::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(15, 26, 46, 0.95) 0%,
-        rgba(15, 26, 46, 0.85) 50%,
-        rgba(15, 26, 46, 0.95) 100%
-    );
-    z-index: 1;
-}
-
-.section-lifestyle .container {
-    position: relative;
-    z-index: 2;
 }
 
 .section-lifestyle .section-title {
